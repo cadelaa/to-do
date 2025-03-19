@@ -3,16 +3,23 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+<<<<<<< HEAD
     "start": "live-server",
     "build:scss": "sass src/styles/main.scss dist/styles/main.css",
     "watch:css": "sass --watch src/styles/main.scss dist/styles/main.css"
+=======
+    "build:css": "sass src/main.scss dist/styles/main.css"
+>>>>>>> ba17509730ffd44f3b799a2c34367943329bfaa3
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
+<<<<<<< HEAD
     "concurrently": "^9.1.2",
+=======
+>>>>>>> ba17509730ffd44f3b799a2c34367943329bfaa3
     "sass": "^1.86.0"
   }
 }
