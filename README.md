@@ -54,7 +54,7 @@ To preview your project and enable live reloading:
 npm start
 
 ---
----
+
 🌟 Workflow
 Write Your HTML: Modify src/index.html.
 
