@@ -34,19 +34,23 @@ Flexible Workflow: Easily extendable for more complex setups in the future.
    git clone https://github.com/cadelaa/web-dev-template.git my-new-project
    cd my-new-project
 
+
 3. Install Dependencies
    
    npm install
+
 
 5. Build SCSS
    To compile SCSS manually:
    
    npm run build:scss
 
+
 4. Watch SCSS
    To automatically recompile SCSS on changes:
    
    npm run watch:css
+
 
 6. Start the Live Server
    To preview your project and enable live reloading:
