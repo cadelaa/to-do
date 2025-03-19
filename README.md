@@ -9,6 +9,9 @@ npm install
 Then run
 
 npm run watch:css
+
 ---
+
 Done.
+
 ---
