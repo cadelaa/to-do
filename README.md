@@ -1,5 +1,5 @@
 # web-dev-template
----
+
 Install dependencies cuh
 
 npm install
