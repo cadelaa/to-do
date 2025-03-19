@@ -31,8 +31,7 @@ Flexible Workflow: Easily extendable for more complex setups in the future.
 
 1. Clone the Repository
    
-   git clone https://github.com/cadelaa/web-dev-template.git my-new-project
-   cd my-new-project
+   git clone https://github.com/cadelaa/web-dev-template.git
 
 
 3. Install Dependencies
