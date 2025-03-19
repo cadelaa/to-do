@@ -1,0 +1,18 @@
+{
+  "name": "my-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server",
+    "build:scss": "sass src/styles/main.scss dist/styles/main.css",
+    "watch:css": "sass --watch src/styles/main.scss dist/styles/main.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "sass": "^1.86.0"
+  }
+}
