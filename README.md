@@ -1,5 +1,5 @@
 # web-dev-template
-
+---
 Install dependencies cuh
 
 npm install
@@ -9,5 +9,6 @@ npm install
 Then run
 
 npm run watch:css
-
+---
 Done.
+---
