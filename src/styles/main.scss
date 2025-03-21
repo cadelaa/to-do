@@ -1,12 +1,49 @@
 html {
-    background: #000;
+    background: #111;
 }
 
 body {
-    background: #000;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
     font-family: Arial, sans-serif;
+    margin: 64px;
 }
 
-h1 {
+.main-content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.text-styles {
+    color: #fff;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.button {
+    display: inline-block;
+    padding: 16px;
+    line-height: 1;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #222;
+    border-radius: 8px;
+    align-self: flex-start;
+
+    &:hover {
+        background-color: #333;
+    }
+}
+
+footer {
+    position: fixed;
+    bottom: 32px;
     color: #fff;
 }
