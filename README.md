@@ -41,12 +41,12 @@ Flexible Workflow: Easily extendable for more complex setups in the future.
    git clone https://github.com/cadelaa/web-dev-template.git
 
 
-3. Install Dependencies
+2. Install Dependencies
    
    npm install
 
 
-5. Build SCSS
+3. Build SCSS
    To compile SCSS manually:
    
    npm run build:scss
@@ -58,16 +58,70 @@ Flexible Workflow: Easily extendable for more complex setups in the future.
    npm run watch:css
 
 
-6. Start the Live Server
+5. Start the Live Server
    To preview your project and enable live reloading:
    
    npm start
 
    or
 
-7. Start both Autocompile scss & live server
+6. Start both Autocompile SCSS & live server
 
    npm run dev 
+
+
+---
+
+
+Checking where the project is pushed to / pulling from
+
+1. Check current remote URL
+
+   git remote -v
+
+
+2. Update the git remote to new URL
+
+   git remote set-url origin <NEW_GIT_URL>
+
+
+3. Verify the remote is set to the new one by rerunning
+
+   git remote -v
+
+
+4. Push to current branch in repo
+
+   git push origin <BRANCH_NAME>
+
+
+---
+
+
+Pushing changes
+
+1. Checking changes made
+   
+   git status
+
+
+2. Adding files to the commit
+
+   git add .
+
+   or 
+
+   git add file_name.ext
+
+
+3. Adding a message to your commit
+
+   git commit -m "Your commit message here"
+
+
+4. Pushing the committed changes
+
+   git push origin main
    
 
 ---
