@@ -1,5 +1,8 @@
+// Base
+@use "colors.scss" as *;
+
 html {
-    background: #111;
+    background: $Neutral115;
 }
 
 body {
@@ -18,32 +21,42 @@ body {
 }
 
 .text-styles {
-    color: #fff;
+    color: $white;
     margin: 0;
 }
 
 a {
-    text-decoration: none;
-    color: #fff;
+    color: $white;
 }
 
-.button {
+.default-button {
     display: inline-block;
     padding: 16px;
     line-height: 1;
     font-size: 16px;
     font-weight: 700;
-    background-color: #222;
+    background-color: $Primary60;
     border-radius: 8px;
     align-self: flex-start;
+    transition: 0.2s ease-in-out;
+    text-decoration: none;
 
     &:hover {
-        background-color: #333;
+        background-color: $Primary70;
+    }
+}
+
+.link {
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+        color: $Primary40;
     }
 }
 
 footer {
     position: fixed;
     bottom: 32px;
-    color: #fff;
+    color: $white;
 }

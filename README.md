@@ -73,24 +73,23 @@ Flexible Workflow: Easily extendable for more complex setups in the future.
 
 
 🌟 Workflow
+
 Write Your HTML: Modify src/index.html.
-
 Style with SCSS: Add styles to src/styles/main.scss.
-
 Preview Changes: Use npm start to see updates live in your browser.
 
+
 ⚙️ Dependencies
+
 sass: Compiles SCSS to CSS.
-
 lite-server (or alternative): Serves your project with live reloading.
-
 concurrently (optional): Runs multiple scripts in parallel.
 
+
 📝 Customization
+
 Feel free to modify the following as needed:
-
 SCSS File Structure: Add more SCSS files and import them into main.scss.
-
 Scripts in package.json: Adjust or add new scripts for other tools or workflows.
 
 
@@ -98,11 +97,11 @@ Scripts in package.json: Adjust or add new scripts for other tools or workflows.
 
 
 🖥️ Example Commands
+
 Start live server and watch SCSS:
-
 npm start
-Build SCSS only:
 
+Build SCSS only:
 npm run build:scss
 
 

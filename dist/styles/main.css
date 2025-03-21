@@ -1,5 +1,5 @@
 html {
-  background: #111;
+  background: #131313;
 }
 
 body {
@@ -23,22 +23,31 @@ body {
 }
 
 a {
-  text-decoration: none;
   color: #fff;
 }
 
-.button {
+.default-button {
   display: inline-block;
   padding: 16px;
   line-height: 1;
   font-size: 16px;
   font-weight: 700;
-  background-color: #222;
+  background-color: #256CF0;
   border-radius: 8px;
   align-self: flex-start;
+  transition: 0.2s ease-in-out;
+  text-decoration: none;
 }
-.button:hover {
-  background-color: #333;
+.default-button:hover {
+  background-color: #2160D6;
+}
+
+.link {
+  text-decoration: none;
+}
+.link:hover {
+  text-decoration: underline;
+  color: #5C91F4;
 }
 
 footer {
