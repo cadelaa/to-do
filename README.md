@@ -11,6 +11,7 @@ my-project/
 │   ├── index.html        # Main HTML file
 │   ├── styles/
 │   │   ├── main.scss     # Main SCSS file
+|   |   ├── colors.scss   # Colors SCSS file
 │── dist/
 │   ├── styles/
 │   │   ├── main.css      # Compiled CSS file (auto-generated)
