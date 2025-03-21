@@ -2,7 +2,9 @@ Web Development Template
 
 This repository is a customizable and efficient starter template for simple web development projects. It includes SCSS support, live reloading, and a structured workflow to speed up development.
 
+
 ---
+
 
 my-project/
 │── src/
@@ -16,7 +18,9 @@ my-project/
 │── package.json          # Project scripts and dependencies
 │── package-lock.json     # Dependency lock file
 
+
 ---
+
 
 🚀 Features
 SCSS Compilation: Write modular and maintainable stylesheets in SCSS, compiled to CSS.
@@ -27,7 +31,9 @@ File Watching: Watches SCSS files for changes and rebuilds CSS in real-time.
 
 Flexible Workflow: Easily extendable for more complex setups in the future.
 
+
 ---
+
 
 1. Clone the Repository
    
@@ -56,7 +62,15 @@ Flexible Workflow: Easily extendable for more complex setups in the future.
    
    npm start
 
+   or
+
+7. Start both Autocompile scss & live server
+
+   npm run dev 
+   
+
 ---
+
 
 🌟 Workflow
 Write Your HTML: Modify src/index.html.
@@ -79,7 +93,9 @@ SCSS File Structure: Add more SCSS files and import them into main.scss.
 
 Scripts in package.json: Adjust or add new scripts for other tools or workflows.
 
+
 ---
+
 
 🖥️ Example Commands
 Start live server and watch SCSS:
@@ -89,7 +105,9 @@ Build SCSS only:
 
 npm run build:scss
 
+
 ---
+
 
 📖 Future Enhancements
 Consider adding:
